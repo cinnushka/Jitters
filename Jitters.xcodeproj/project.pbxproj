@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15EB537B22C61EBE008DC3BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EB537A22C61EBE008DC3BF /* AppDelegate.swift */; };
+		15EB537D22C61EBE008DC3BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EB537C22C61EBE008DC3BF /* ViewController.swift */; };
+		15EB538022C61EBE008DC3BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EB537E22C61EBE008DC3BF /* Main.storyboard */; };
+		15EB538222C61EC0008DC3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EB538122C61EC0008DC3BF /* Assets.xcassets */; };
+		15EB538522C61EC0008DC3BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EB538322C61EC0008DC3BF /* LaunchScreen.storyboard */; };
+		15EB539022C61EC0008DC3BF /* JittersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EB538F22C61EC0008DC3BF /* JittersTests.swift */; };
+		15EB539B22C61EC0008DC3BF /* JittersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EB539A22C61EC0008DC3BF /* JittersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15EB538C22C61EC0008DC3BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15EB536F22C61EBE008DC3BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15EB537622C61EBE008DC3BF;
+			remoteInfo = Jitters;
+		};
+		15EB539722C61EC0008DC3BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15EB536F22C61EBE008DC3BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15EB537622C61EBE008DC3BF;
+			remoteInfo = Jitters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15EB537722C61EBE008DC3BF /* Jitters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jitters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EB537A22C61EBE008DC3BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15EB537C22C61EBE008DC3BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15EB537F22C61EBE008DC3BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15EB538122C61EC0008DC3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15EB538422C61EC0008DC3BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15EB538622C61EC0008DC3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EB538B22C61EC0008DC3BF /* JittersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JittersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EB538F22C61EC0008DC3BF /* JittersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JittersTests.swift; sourceTree = "<group>"; };
+		15EB539122C61EC0008DC3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EB539622C61EC0008DC3BF /* JittersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JittersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EB539A22C61EC0008DC3BF /* JittersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JittersUITests.swift; sourceTree = "<group>"; };
+		15EB539C22C61EC0008DC3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15EB537422C61EBE008DC3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EB538822C61EC0008DC3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EB539322C61EC0008DC3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15EB536E22C61EBE008DC3BF = {
+			isa = PBXGroup;
+			children = (
+				15EB537922C61EBE008DC3BF /* Jitters */,
+				15EB538E22C61EC0008DC3BF /* JittersTests */,
+				15EB539922C61EC0008DC3BF /* JittersUITests */,
+				15EB537822C61EBE008DC3BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15EB537822C61EBE008DC3BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15EB537722C61EBE008DC3BF /* Jitters.app */,
+				15EB538B22C61EC0008DC3BF /* JittersTests.xctest */,
+				15EB539622C61EC0008DC3BF /* JittersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15EB537922C61EBE008DC3BF /* Jitters */ = {
+			isa = PBXGroup;
+			children = (
+				15EB537A22C61EBE008DC3BF /* AppDelegate.swift */,
+				15EB537C22C61EBE008DC3BF /* ViewController.swift */,
+				15EB537E22C61EBE008DC3BF /* Main.storyboard */,
+				15EB538122C61EC0008DC3BF /* Assets.xcassets */,
+				15EB538322C61EC0008DC3BF /* LaunchScreen.storyboard */,
+				15EB538622C61EC0008DC3BF /* Info.plist */,
+			);
+			path = Jitters;
+			sourceTree = "<group>";
+		};
+		15EB538E22C61EC0008DC3BF /* JittersTests */ = {
+			isa = PBXGroup;
+			children = (
+				15EB538F22C61EC0008DC3BF /* JittersTests.swift */,
+				15EB539122C61EC0008DC3BF /* Info.plist */,
+			);
+			path = JittersTests;
+			sourceTree = "<group>";
+		};
+		15EB539922C61EC0008DC3BF /* JittersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15EB539A22C61EC0008DC3BF /* JittersUITests.swift */,
+				15EB539C22C61EC0008DC3BF /* Info.plist */,
+			);
+			path = JittersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15EB537622C61EBE008DC3BF /* Jitters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EB539F22C61EC0008DC3BF /* Build configuration list for PBXNativeTarget "Jitters" */;
+			buildPhases = (
+				15EB537322C61EBE008DC3BF /* Sources */,
+				15EB537422C61EBE008DC3BF /* Frameworks */,
+				15EB537522C61EBE008DC3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jitters;
+			productName = Jitters;
+			productReference = 15EB537722C61EBE008DC3BF /* Jitters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15EB538A22C61EC0008DC3BF /* JittersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EB53A222C61EC0008DC3BF /* Build configuration list for PBXNativeTarget "JittersTests" */;
+			buildPhases = (
+				15EB538722C61EC0008DC3BF /* Sources */,
+				15EB538822C61EC0008DC3BF /* Frameworks */,
+				15EB538922C61EC0008DC3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15EB538D22C61EC0008DC3BF /* PBXTargetDependency */,
+			);
+			name = JittersTests;
+			productName = JittersTests;
+			productReference = 15EB538B22C61EC0008DC3BF /* JittersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15EB539522C61EC0008DC3BF /* JittersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EB53A522C61EC0008DC3BF /* Build configuration list for PBXNativeTarget "JittersUITests" */;
+			buildPhases = (
+				15EB539222C61EC0008DC3BF /* Sources */,
+				15EB539322C61EC0008DC3BF /* Frameworks */,
+				15EB539422C61EC0008DC3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15EB539822C61EC0008DC3BF /* PBXTargetDependency */,
+			);
+			name = JittersUITests;
+			productName = JittersUITests;
+			productReference = 15EB539622C61EC0008DC3BF /* JittersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15EB536F22C61EBE008DC3BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "anushka rai";
+				TargetAttributes = {
+					15EB537622C61EBE008DC3BF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					15EB538A22C61EC0008DC3BF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 15EB537622C61EBE008DC3BF;
+					};
+					15EB539522C61EC0008DC3BF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 15EB537622C61EBE008DC3BF;
+					};
+				};
+			};
+			buildConfigurationList = 15EB537222C61EBE008DC3BF /* Build configuration list for PBXProject "Jitters" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15EB536E22C61EBE008DC3BF;
+			productRefGroup = 15EB537822C61EBE008DC3BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15EB537622C61EBE008DC3BF /* Jitters */,
+				15EB538A22C61EC0008DC3BF /* JittersTests */,
+				15EB539522C61EC0008DC3BF /* JittersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15EB537522C61EBE008DC3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EB538522C61EC0008DC3BF /* LaunchScreen.storyboard in Resources */,
+				15EB538222C61EC0008DC3BF /* Assets.xcassets in Resources */,
+				15EB538022C61EBE008DC3BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EB538922C61EC0008DC3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EB539422C61EC0008DC3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15EB537322C61EBE008DC3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EB537D22C61EBE008DC3BF /* ViewController.swift in Sources */,
+				15EB537B22C61EBE008DC3BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EB538722C61EC0008DC3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EB539022C61EC0008DC3BF /* JittersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EB539222C61EC0008DC3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EB539B22C61EC0008DC3BF /* JittersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15EB538D22C61EC0008DC3BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15EB537622C61EBE008DC3BF /* Jitters */;
+			targetProxy = 15EB538C22C61EC0008DC3BF /* PBXContainerItemProxy */;
+		};
+		15EB539822C61EC0008DC3BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15EB537622C61EBE008DC3BF /* Jitters */;
+			targetProxy = 15EB539722C61EC0008DC3BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15EB537E22C61EBE008DC3BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EB537F22C61EBE008DC3BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15EB538322C61EC0008DC3BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EB538422C61EC0008DC3BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15EB539D22C61EC0008DC3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15EB539E22C61EC0008DC3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15EB53A022C61EC0008DC3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jitters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anushka.Jitters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15EB53A122C61EC0008DC3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jitters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anushka.Jitters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15EB53A322C61EC0008DC3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JittersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anushka.JittersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jitters.app/Jitters";
+			};
+			name = Debug;
+		};
+		15EB53A422C61EC0008DC3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JittersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anushka.JittersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jitters.app/Jitters";
+			};
+			name = Release;
+		};
+		15EB53A622C61EC0008DC3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JittersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anushka.JittersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jitters;
+			};
+			name = Debug;
+		};
+		15EB53A722C61EC0008DC3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JittersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anushka.JittersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jitters;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15EB537222C61EBE008DC3BF /* Build configuration list for PBXProject "Jitters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EB539D22C61EC0008DC3BF /* Debug */,
+				15EB539E22C61EC0008DC3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EB539F22C61EC0008DC3BF /* Build configuration list for PBXNativeTarget "Jitters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EB53A022C61EC0008DC3BF /* Debug */,
+				15EB53A122C61EC0008DC3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EB53A222C61EC0008DC3BF /* Build configuration list for PBXNativeTarget "JittersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EB53A322C61EC0008DC3BF /* Debug */,
+				15EB53A422C61EC0008DC3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EB53A522C61EC0008DC3BF /* Build configuration list for PBXNativeTarget "JittersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EB53A622C61EC0008DC3BF /* Debug */,
+				15EB53A722C61EC0008DC3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15EB536F22C61EBE008DC3BF /* Project object */;
+}
